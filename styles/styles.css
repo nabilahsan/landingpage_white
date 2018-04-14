@@ -51,6 +51,10 @@ p {
   color: #000000;
 }
 
+#defn {
+  font-size: 150%;
+}
+
 .finalNote {
   text-align: center;
   font-size: 90%;
