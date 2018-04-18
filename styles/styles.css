@@ -48,12 +48,15 @@ img {
 
 p {
   text-align: center;
+  letter-spacing: 2px;
+  word-wrap: normal;
   font-size: 400%;
   padding-top: 2%;
   padding-left: 10%;
   padding-right: 10%;
   color: #000000;
 }
+
 
 .finalNote {
   text-align: center;
