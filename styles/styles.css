@@ -35,6 +35,16 @@ img {
   margin-top: 25%;
   margin-bottom: 35%;
   width: 40%;
+  animation: fadein 4s;
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
 }
 
 #fullLogoBottom {
@@ -44,6 +54,10 @@ img {
 
 #defn {
   color: rgb(53, 53, 53);
+}
+
+margin-top: 60px;
+  econdP {
 }
 
 p {

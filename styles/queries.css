@@ -2,8 +2,8 @@
 
 @media only screen and (max-width: 600px) {
     img {
-        margin-top: 60%;
-        margin-bottom: 80%;
+        margin-top: 70%;
+        margin-bottom: 90%;
         width: 70%;
     }
     p {
@@ -84,7 +84,7 @@
 
 @media only screen and (min-width: 768px) {
     img {
-        margin-top: 50%;
+        margin-top: 60%;
         margin-bottom: 60%;
         width: 50%;
     }
@@ -101,8 +101,8 @@
         width: 50%;
     }
     img {
-        margin-top: 25%;
-        margin-bottom: 28%;
+        margin-top: 40%;
+        margin-bottom: 55%;
         width: 40%;
     }
     #fullLogoBottom {
@@ -120,6 +120,7 @@
     p {
         font-size: 200%;
     }
+  
     #defn {
         font-size: 150%;
     }
@@ -128,8 +129,39 @@
     }
     img {
         margin-top: 25%;
-        margin-bottom: 28%;
+        margin-bottom: 35%;
+        width: 35%;
+    }
+    #fullLogoBottom {
+        width: 20%;
+        margin-bottom: -8%;
+    }
+    .finalNote {
+        font-size: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+/*FHD laptops*/
+@media only screen and (min-width: 1600px) {
+    input {
         width: 50%;
+    }
+    p {
+        font-size: 200%;
+    }
+  
+    #defn {
+        font-size: 150%;
+    }
+    #soon {
+        font-size: 100%;
+    }
+    img {
+        margin-top: 35%;
+        margin-bottom: 40%;
+        width: 35%;
     }
     #fullLogoBottom {
         width: 20%;
