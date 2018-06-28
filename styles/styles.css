@@ -6,6 +6,7 @@
   background: #ffff;
 }
 
+
 html {
   margin: 0;
   height: 100%;
@@ -31,7 +32,7 @@ input {
 
 /*Logo and text styling*/
 
-img {
+#shoot-logo {
   margin-top: 25%;
   margin-bottom: 35%;
   width: 40%;
@@ -52,7 +53,7 @@ img {
   margin-bottom: -10%;
 }
 
-#defn {
+#atelier {
   color: rgb(53, 53, 53);
 }
 
@@ -91,7 +92,6 @@ a:link {
 a,
 i {
   font-size: 200%;
-
   margin-bottom: 20%;
   color: black;
 }
@@ -114,6 +114,21 @@ i {
 *:focus {
   outline: none;
 }
+
+.centered{    /*centers item*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+img { /*to resize image according to screen*/
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
 
 /*
 
