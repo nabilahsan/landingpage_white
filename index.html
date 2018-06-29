@@ -132,8 +132,8 @@
     </div>
   </div>
 </body>
-<script>
 
+<script>
  
  var myVar = setTimeout(myTimer, 4000);
  
@@ -141,9 +141,11 @@
   var scroll = new SmoothScroll();
   var anchor = document.querySelector('#defn');
   var toggle = document.querySelector('#space');
-  var options = {speed: 3000, easing: 'easeOutCubic'};
+  var options = {speed: 3000, easing: 'easeOutCubic', updateURL: false};
   scroll.animateScroll(anchor, toggle, options);
 }
+
+
 </script>
 
 
