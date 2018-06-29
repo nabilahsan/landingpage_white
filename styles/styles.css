@@ -123,11 +123,6 @@ i {
 }
 
 
-img { /*to resize image according to screen*/
-  max-width: 100%;
-  height: auto;
-  width: auto\9; /* ie8 */
-}
 
 
 /*
