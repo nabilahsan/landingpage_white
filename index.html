@@ -91,11 +91,11 @@
             <img src="img/Atelier_graphic.svg" alt="camera" >
           </div>
         <p class="secondP">
-          The Atelier is the name of the team<br>and studio that is designing Shoot:<br>a platform for Photographers,<br>Videographers and Creatives to<br>connect and create with<br>anyone that has a story to tell.
+          The <mark>Atelier</mark> is the name of the team<br>and studio that is designing <mark>Shoot:</mark><br>a platform for Photographers,<br>Videographers and Creatives to<br><mark>connect and create</mark> with<br>anyone that has a story to tell.
         </p>
   
         <p>
-          From beauty portraits to fashion,<br>corporate headshots to weddings,<br>we strive to revolutionize how people use<br>photography and video to tell their stories.
+          From beauty portraits to fashion,<br>corporate headshots to weddings,<br>we strive to <mark>revolutionize</mark> how people use<br>photography and video to tell their stories.
         </p>
 
         <p id="soon">
@@ -135,13 +135,15 @@
 <script>
 
  
-
+ var myVar = setTimeout(myTimer, 4000);
+ 
+ function myTimer(){
   var scroll = new SmoothScroll();
   var anchor = document.querySelector('#defn');
   var toggle = document.querySelector('#space');
-  var options = { speed: 6000 };
+  var options = {speed: 3000, easing: 'easeOutCubic'};
   scroll.animateScroll(anchor, toggle, options);
-
+}
 </script>
 
 
