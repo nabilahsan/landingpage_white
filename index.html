@@ -16,11 +16,13 @@
   <meta name="theme-color" content="#ffffff">
   <!--End of Favicons-->
 
-    <!--Js Script-->
-    <script src="scripts/script.js"></script>
+    <!--Js Script
+    <script src="scripts/script.js"></script>-->
 
-    <!--Smooth Scroll
-    <link href="/scripts/smoothscroll.js">-->
+    <!--Smooth scroll-->
+    <script src="scripts/smooth-scroll-master/docs/dist/smooth-scroll.polyfills.js"></script>
+
+
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117171100-1"></script>
@@ -71,8 +73,9 @@
 
         <div class="text-center" id="logo">
           <img src="img/mark only - color.png" alt="shoot-mark-black"  id="shoot-logo">
-          
+        </div>
 
+        <div id="space">
 
         </div>
 
@@ -129,7 +132,17 @@
     </div>
   </div>
 </body>
+<script>
 
+ 
+
+  var scroll = new SmoothScroll();
+  var anchor = document.querySelector('#defn');
+  var toggle = document.querySelector('#space');
+  var options = { speed: 6000 };
+  scroll.animateScroll(anchor, toggle, options);
+
+</script>
 
 
 </html>
