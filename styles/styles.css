@@ -71,7 +71,13 @@ p {
   padding-right: 10%;
   color: #000000;
 }
+.para{
+  font-size: 1.5em;
+}
 
+mark{
+  font-size: inherit;
+}
 
 .finalNote {
   text-align: center;
@@ -123,10 +129,31 @@ i {
 }
 
 
+#purple{
+  background-color: #F9CAF0;
+  color: black;
+}
 
+#pink{
+  background-color: #F7b2b7;
+  color: black;
+}
 
+#pastel-pink{
+  background-color: #F4C2B3;
+  color: black;
+}
+
+#yellow{
+  background-color: #F7E9B0;
+  color: black;
+}
+
+#camera{
+  width: 30%;
+  height: auto;
+}
 /*
-
 body {
   background: linear-gradient(140deg, #DD0C8B, #E52127, #F15B22, #FDD31C);
   background-repeat: no-repeat;

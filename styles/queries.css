@@ -35,6 +35,10 @@
     input {
         width: 90%;
     }
+
+    .para{
+        font-size: 1em;
+      }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -74,6 +78,10 @@
         width: 40%;
         margin-bottom: -25%;
     }
+    .para{
+        font-size: 1.4em;
+      } 
+
     /*Issues separating button and input*/
     button {
         margin-top: 100px;
@@ -92,6 +100,9 @@
         width: 40%;
         margin-bottom: -20%;
     }
+    .para{
+        font-size: 1.5em;
+      }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -109,6 +120,9 @@
         width: 30%;
         margin-bottom: -10%;
     }
+    .para{
+        font-size: 1.5em;
+      }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -172,4 +186,7 @@
         padding-left: 10%;
         padding-right: 10%;
     }
+    .para{
+        font-size: 1.5em;
+      }
 }

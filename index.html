@@ -16,12 +16,9 @@
   <meta name="theme-color" content="#ffffff">
   <!--End of Favicons-->
 
-    <!--Js Script
-    <script src="scripts/script.js"></script>-->
-
-    <!--Smooth scroll-->
-    <script src="scripts/smooth-scroll-master/docs/dist/smooth-scroll.polyfills.js"></script>
-
+    
+   <!--Smooth scroll-->
+  <script src="scripts/smooth-scroll-master/docs/dist/smooth-scroll.polyfills.js"></script>
 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -49,6 +46,7 @@
       a.appendChild(r);
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
+
 
   <!--My stylesheets-->
   <link rel="stylesheet" href="styles/styles.css">
@@ -88,14 +86,14 @@
         
         <p id="atelier">A workshop or studio,<br>especially one used by<br>an artist or designer.</p>
           <div class="centered">
-            <img src="img/Atelier_graphic.svg" alt="camera" >
+            <img src="img/Atelier_graphic.svg" alt="camera" id="camera" >
           </div>
-        <p class="secondP">
-          The <mark>Atelier</mark> is the name of the team<br>and studio that is designing <mark>Shoot:</mark><br>a platform for Photographers,<br>Videographers and Creatives to<br><mark>connect and create</mark> with<br>anyone that has a story to tell.
+        <p class="secondP para">
+          The <mark id="purple">Atelier</mark> is the name of the team<br>and studio that is designing <mark id="pink">Shoot:</mark><br>a platform for Photographers,<br>Videographers and Creatives to<br><mark id="pastel-pink">connect and create</mark> with<br>anyone that has a story to tell.
         </p>
   
-        <p>
-          From beauty portraits to fashion,<br>corporate headshots to weddings,<br>we strive to <mark>revolutionize</mark> how people use<br>photography and video to tell their stories.
+        <p class="para">
+          From beauty portraits to fashion,<br>corporate headshots to weddings,<br>we strive to <mark id="yellow">revolutionize</mark> how people use<br>photography and video to tell their stories.
         </p>
 
         <p id="soon">
@@ -133,20 +131,7 @@
   </div>
 </body>
 
-<script>
- 
- var myVar = setTimeout(myTimer, 4000);
- 
- function myTimer(){
-  var scroll = new SmoothScroll();
-  var anchor = document.querySelector('#defn');
-  var toggle = document.querySelector('#space');
-  var options = {speed: 3000, easing: 'easeOutCubic', updateURL: false};
-  scroll.animateScroll(anchor, toggle, options);
-}
-
-
-</script>
-
+<!--Js Script-->
+<script src="scripts/script.js"></script>
 
 </html>
