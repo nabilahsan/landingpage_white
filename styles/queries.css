@@ -2,8 +2,8 @@
 
 @media only screen and (max-width: 400px) {
     #shoot, #shoot-logo {
-        margin-top: 60%;
-        margin-bottom: 65%;
+        margin-top: 50%;
+        margin-bottom: 45%;
         width: 70%;
     }
     p {
@@ -39,14 +39,18 @@
     .para{
         font-size: 1em;
       }
+
+      #arrow{
+        padding-bottom: 30%;
+      }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 400px) {
     #shoot, #shoot-logo {
-        margin-top: 60%;
-        margin-bottom: 90%;
+        margin-top: 25%;
+        margin-bottom: 26%;
         width: 70%;
     }
     p {
@@ -86,13 +90,14 @@
     button {
         margin-top: 100px;
     }
+  
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
     #shoot, #shoot-logo {
-        margin-top: 60%;
-        margin-bottom: 80%;
+        margin-top: 25%;
+        margin-bottom: 20%;
         width: 70%;
     }
     p {
@@ -138,8 +143,8 @@
 
 @media only screen and (min-width: 768px) {
     #shoot, #shoot-logo {
-        margin-top: 60%;
-        margin-bottom: 60%;
+        margin-top: 20%;
+        margin-bottom: 15%;
         width: 50%;
     }
     #fullLogoBottom {
@@ -149,6 +154,8 @@
     .para{
         font-size: 1.5em;
       }
+
+   
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -158,8 +165,8 @@
         width: 50%;
     }
     #shoot, #shoot-logo {
-        margin-top: 40%;
-        margin-bottom: 55%;
+        margin-top: 15%;
+        margin-bottom: 10%;
         width: 40%;
     }
     #fullLogoBottom {
@@ -188,8 +195,8 @@
         font-size: 100%;
     }
     #shoot, #shoot-logo{
-        margin-top: 25%;
-        margin-bottom: 35%;
+        margin-top: 10%;
+        margin-bottom: 15%;
         width: 35%;
     }
     #fullLogoBottom {
@@ -219,8 +226,8 @@
         font-size: 100%;
     }
     #shoot, #shoot-logo {
-        margin-top: 28%;
-        margin-bottom: 35%;
+        margin-top: 10%;
+        margin-bottom: 15%;
         width: 35%;
     }
     #fullLogoBottom {
