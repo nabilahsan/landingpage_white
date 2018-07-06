@@ -32,7 +32,7 @@ input {
 
 /*Logo and text styling*/
 
-#shoot-logo {
+#shootlogo {
   margin-top: 25%;
   margin-bottom: 35%;
   width: 40%;
@@ -243,5 +243,6 @@ body {
 }
 
 #arrow{
-  padding-bottom: 20%;
+  margin-bottom: 20%;
 }
+

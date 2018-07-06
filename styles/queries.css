@@ -1,9 +1,9 @@
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 400px) {
-    #shoot, #shoot-logo {
+@media only screen and (max-width: 600px) {
+    #shootlogo, #shoot{
         margin-top: 50%;
-        margin-bottom: 45%;
+        margin-bottom: 50%; 
         width: 70%;
     }
     p {
@@ -35,122 +35,18 @@
     input {
         width: 90%;
     }
-
-    .para{
-        font-size: 1em;
-      }
-
-      #arrow{
-        padding-bottom: 40%;
-      }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-
-@media only screen and (min-width: 400px) {
-    #shoot, #shoot-logo {
-        margin-top: 35%;
-        margin-bottom: 26%;
-        width: 70%;
-    }
-    p {
-        font-size: 120%;
-    }
-    #defn {
-        font-size: 100%;
-    }
-    #soon {
-        font-size: 80%;
-    }
-    .finalNote {
-        font-size: 80%;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-    a,
-    i {
-        font-size: 150%;
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-top: 10%;
-        margin-bottom: 20%;
-    }
-    input {
-        width: 100%;
-    }
-    #fullLogoBottom {
-        width: 40%;
-        margin-bottom: -25%;
-    }
-    .para{
-        font-size: 1.4em;
-      } 
-
-    /*Issues separating button and input*/
-    button {
-        margin-top: 100px;
-    }
     #arrow{
-        padding-bottom: 40%;
-      }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-
-@media only screen and (min-width: 500px) {
-    #shoot, #shoot-logo {
-        margin-top: 24%;
-        margin-bottom: 24%;
-        width: 70%;
+        margin-bottom: 30%;
     }
-    p {
-        font-size: 120%;
-    }
-    #defn {
-        font-size: 100%;
-    }
-    #soon {
-        font-size: 80%;
-    }
-    .finalNote {
-        font-size: 80%;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-    a,
-    i {
-        font-size: 150%;
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-top: 10%;
-        margin-bottom: 20%;
-    }
-    input {
-        width: 100%;
-    }
-    #fullLogoBottom {
-        width: 40%;
-        margin-bottom: -25%;
-    }
-    .para{
-        font-size: 1.4em;
-      } 
-
-    /*Issues separating button and input*/
-    button {
-        margin-top: 100px;
-    }
-    #arrow{
-        padding-bottom: 27%;
-      }
+      
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
-    #shoot, #shoot-logo {
-        margin-top: 25%;
-        margin-bottom: 20%;
+    #shootlogo, #shoot {
+        margin-top: 60%;
+        margin-bottom: 50%;
         width: 70%;
     }
     p {
@@ -182,33 +78,34 @@
         width: 40%;
         margin-bottom: -25%;
     }
-    .para{
-        font-size: 1.4em;
-      } 
-
     /*Issues separating button and input*/
     button {
         margin-top: 100px;
     }
+
+    #arrow{
+        margin-bottom: 30%;
+    }
+      
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
-    #shoot, #shoot-logo {
-        margin-top: 20%;
-        margin-bottom: 15%;
+    #shootlogo, #shoot {
+        margin-top: 30%;
+        margin-bottom: 30%;
         width: 50%;
     }
     #fullLogoBottom {
         width: 40%;
         margin-bottom: -20%;
     }
-    .para{
-        font-size: 1.5em;
-      }
 
-   
+    #arrow{
+        margin-bottom: 30%;
+    }
+      
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -217,18 +114,15 @@
     input {
         width: 50%;
     }
-    #shoot, #shoot-logo {
-        margin-top: 15%;
-        margin-bottom: 10%;
+    #shootlogo, #shoot {
+        margin-top: 40%;
+        margin-bottom: 55%;
         width: 40%;
     }
     #fullLogoBottom {
         width: 30%;
         margin-bottom: -10%;
     }
-    .para{
-        font-size: 1.5em;
-      }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -247,9 +141,9 @@
     #soon {
         font-size: 100%;
     }
-    #shoot, #shoot-logo{
-        margin-top: 10%;
-        margin-bottom: 15%;
+    #shootlogo, shoot {
+        margin-top: 25%;
+        margin-bottom: 35%;
         width: 35%;
     }
     #fullLogoBottom {
@@ -278,9 +172,9 @@
     #soon {
         font-size: 100%;
     }
-    #shoot, #shoot-logo {
-        margin-top: 30%;
-        margin-bottom: 25%;
+    #shootlogo, #shoot {
+        margin-top: 28%;
+        margin-bottom: 35%;
         width: 35%;
     }
     #fullLogoBottom {
@@ -292,12 +186,4 @@
         padding-left: 10%;
         padding-right: 10%;
     }
-    .para{
-        font-size: 1.5em;
-      }
-
-    #arrow{
-        padding-bottom: 20%;
-      }
-
 }
