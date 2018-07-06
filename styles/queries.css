@@ -2,7 +2,7 @@
 
 @media only screen and (max-width: 600px) {
     #shootlogo, #shoot{
-        margin-top: 50%;
+        margin-top: 40%;
         margin-bottom: 50%; 
         width: 70%;
     }
@@ -36,7 +36,7 @@
         width: 90%;
     }
     #arrow{
-        margin-bottom: 30%;
+        margin-bottom: 57%;
     }
       
 }
@@ -45,8 +45,8 @@
 
 @media only screen and (min-width: 600px) {
     #shootlogo, #shoot {
-        margin-top: 60%;
-        margin-bottom: 50%;
+        margin-top: 30%;
+        margin-bottom: 40%;
         width: 70%;
     }
     p {
@@ -84,7 +84,7 @@
     }
 
     #arrow{
-        margin-bottom: 30%;
+        margin-bottom: 20%;
     }
       
 }
@@ -93,8 +93,8 @@
 
 @media only screen and (min-width: 768px) {
     #shootlogo, #shoot {
-        margin-top: 30%;
-        margin-bottom: 30%;
+        margin-top: 25%;
+        margin-bottom: 23%;
         width: 50%;
     }
     #fullLogoBottom {
@@ -103,7 +103,7 @@
     }
 
     #arrow{
-        margin-bottom: 30%;
+        margin-bottom: 20%;
     }
       
 }
@@ -115,13 +115,17 @@
         width: 50%;
     }
     #shootlogo, #shoot {
-        margin-top: 40%;
-        margin-bottom: 55%;
+        margin-top: 17%;
+        margin-bottom: 15%;
         width: 40%;
     }
     #fullLogoBottom {
         width: 30%;
         margin-bottom: -10%;
+    }
+
+    #arrow{
+        margin-bottom: 20%;
     }
 }
 
@@ -142,8 +146,8 @@
         font-size: 100%;
     }
     #shootlogo, shoot {
-        margin-top: 25%;
-        margin-bottom: 35%;
+        margin-top: 15%;
+        margin-bottom: 15%;
         width: 35%;
     }
     #fullLogoBottom {
@@ -173,8 +177,8 @@
         font-size: 100%;
     }
     #shootlogo, #shoot {
-        margin-top: 28%;
-        margin-bottom: 35%;
+        margin-top: 15%;
+        margin-bottom: 15%;
         width: 35%;
     }
     #fullLogoBottom {
