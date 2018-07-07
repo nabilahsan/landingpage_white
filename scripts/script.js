@@ -8,3 +8,12 @@
   var options = {speed: 3000, easing: 'easeOutCubic', updateURL: false, clip: true}; //speed: how long it scrolls, easing is the transition effect
   scroll.animateScroll(anchor, toggle, options);
 }*/
+
+$(window).bind('scroll', function() {
+  if ($(window).scrollTop() > 150) {
+      $('#arrow').hide();
+  }
+  else {
+      $('#arrow').show();
+  }
+});

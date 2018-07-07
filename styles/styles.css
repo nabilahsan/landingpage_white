@@ -126,6 +126,7 @@ i {
   align-items: center;
   justify-content: center;
   text-align: center;
+  animation: fadein 6s;
 }
 
 
@@ -223,18 +224,6 @@ body {
   }
 }
 
-.text {
-  display: block;
-  margin-top: 75px;
-  margin-left: -30px;
-  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  font-size: 12px;
-  color: #B2B2B2;
-  text-transform: uppercase;
-  white-space: nowrap;
-  opacity: .25;
-  animation: pulse 2s linear alternate infinite;
-}
 
 @keyframes pulse {
   to {
